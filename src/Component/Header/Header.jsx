@@ -6,10 +6,10 @@ const Header = () => {
     return (
         <nav class="navbar">
             <ul class="link-group">
-                <li class="link active"><a href="#">home</a></li>
-                <li class="link"><a href="#">projects</a></li>
-                <li class="link"><a href="#">about</a></li>
-                <li class="link"><a href="#" id="contact">contact</a></li>
+                <li className="link active"><a href="#home">home</a></li>
+                <li className="link"><a href="#projects">projects</a></li>
+                <li className="link"><a href="#about">about</a></li>
+                <li className="link"><a href="#contact">contact</a></li>
             </ul>
         </nav>
     )

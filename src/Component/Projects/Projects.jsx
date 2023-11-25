@@ -4,7 +4,7 @@ import Soap from '../../Assests/soap.png'
 const Project = () => {
     return (
         
-        <section class="project-section active">
+        <section class="project-section active" id='projects'>
             <h1 class="project-heading">some of my projects</h1>
                 <div class="project-container">
                     <div class="project-card">
